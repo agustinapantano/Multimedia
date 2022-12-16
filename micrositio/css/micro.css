@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&family=Kanit:ital@1&display=swap');
+
+*{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+html{
+	height: 100%;
+}
+
+body{
+
+	
+	font-size: 1.2rem;
+	min-height: 100%; 
+	 
+}
+
+.grid_container{
+	display: grid;
+	grid-template: 
+	"header" 100px
+	"main"	1150px
+	"sidebar" 1350px
+	"footer" 60px
+	;
+}
+
+.header{
+	grid-area: header;
+	background-color: #ff3838;
+}
+
+
+.main{
+	grid-area: main;
+	background-color:#fff200;
+}
+
+.sidebar{
+	grid-area: sidebar;
+	background-color: #D980FA;
+	padding: 5%;
+	padding-left: 20px;
+}
+
+.footer{
+	grid-area: footer;
+	background-color:  #18dcff;
+
+	padding-left: 4%;
+	position: fixed;
+	width: 100%;
+    height: 50px;
+    top: 94%;
+}
+
+@media (min-width: 600px) {
+
+	.grid_container{
+
+		grid-template: 
+		"header 	header" 	100px
+		"sidebar 	main" 		750px
+		"footer 	footer" 	60px /
+		 650px		auto;
+ 	}
+
+}
+
+
+@media (min-width: 1000px) {
+
+	.grid_container{
+
+		grid-template: 
+		"header 	header" 	100px
+		"sidebar 	main" 		1180px
+		"footer 	footer" 	00px /
+		 850px 		600px;
+ 	}
+
+}
+
+
+.logo{
+	width: 110px;
+	padding-top: 17.5px;
+    position: relative;
+    left: 2%;
+    float: left;
+   
+}
+
+p{
+	font-family: 'Playfair Display', serif;
+	font-size: 18px;
+	padding: 2%;
+}
+
+h3	{
+	font-family: 'Fjalla One', sans-serif;
+	    padding: 2%;
+}
+
+h4{
+	font-family: 'Fjalla One', sans-serif;
+	font-size: 33pt;
+	color:#ffffff;
+	float: left;
+	position: relative;
+    margin-left: 4%;
+    margin-top: 37px;
+   
+	
+}
+
+h1	{
+	padding-left: 8%;
+}
+
+#lp{
+	
+	text-align: center;
+	padding-top: 15px;
+	color: #FFFFFF;
+	text-decoration: none;
+		font-family: 'Fjalla One', sans-serif;
+	
+}
+
+.img{
+	width: 370px;
+	padding-left: 50px;
+	padding-top: 6%;
+}
+
+a{
+text-decoration: none;
+color: #FFFFFF;
+}
+
+
+
+
+

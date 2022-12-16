@@ -1,0 +1,364 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+
+body{
+	font-family: 'Roboto', sans-serif;
+background-image: url(../img/fondo.jpg);
+}
+
+
+main{
+	width: 90%;
+	height: 80%;
+	background-color: #feffa3;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+header{
+	width: 100%;
+	height: 150px;
+	background-color: #cc181e;
+}
+
+
+nav{
+	width: 100%;
+	height: 50px;
+	background-color: #ffc300;
+}
+
+
+section{
+	width: 100%;
+	height: 570px;
+	background-size: cover;
+}
+
+
+footer{
+	width: 100%;
+	height: 50px;
+	background-color:#2bd1fc;
+}
+
+
+article {
+	display: inline;
+}
+
+
+#area1{
+	width: 40%;
+	height: 570px;
+	
+	padding-left: 2.5%;
+	padding-top: 1.2%;
+	float: left;
+}
+
+
+#area2{
+	width: 60%;
+	height: 570px;
+	
+	float: right;
+	padding-left: 6.5%;
+	padding-top: 6%;	
+}
+
+
+#area3{
+	width: 40%;
+	height: 550px;
+	background-color: #cc181e;
+	padding-top: 1.2%;
+	float: left;
+}
+
+
+#area4{
+	width: 60%;
+	height: 550px;
+	background-color: #cc181e;
+	float: right;
+	padding-left: 10%;
+	padding-top: 0.3%;
+	
+
+	
+}
+
+#area5{
+	width: 70%;
+	height: 550px;
+	background-color: #cc181e;
+	float: right;
+
+
+	
+}
+
+
+#area6{
+	width: 30%;
+	height: 550px;
+	background-color: #cc181e;
+	padding-top: 1.2%;
+	float: left;
+}
+p{
+	width: 400px;
+    font-size: 20px;
+	color: #ffffff;
+	
+}
+
+
+
+
+.color{
+	color: #ffbdbd;
+}
+
+
+#button li{
+	display: inline;
+}
+
+
+#button li a{
+	font-size: 16px;
+	text-decoration: none;
+	float: right;
+	padding: 1%;
+	color: #ffffff;
+	margin-left: 2%;
+	margin-right: 1.5%;
+	margin-top: 0.3%;
+}
+
+
+#button li a:hover {
+	color: #000000;
+}
+
+
+.logo{
+	margin-left: 2%;
+	margin-top: 1.5%;
+	width: auto;
+	height: auto;
+}
+
+
+form{
+	width: 70%;
+	background-color: #cc181e;
+	padding: 2%;
+	margin-left: 15%;
+	-moz-box-shadow: 3px -1px 18px #ffc300;
+-webkit-box-shadow: 3px -1px 18px #ffc300;
+box-shadow: 3px -1px 18px #ffc300;
+}
+
+
+.largo{
+	width: 100%;
+	height: 100%
+}
+
+
+.largo2{
+	width: 100%;
+	height: 40px;
+}
+
+
+.btn{
+	width: 40%;
+	height: 30px;
+	margin: 1%;
+	background-color: #ffffff;
+	font-size: 14px;
+	font-family:  'Roboto', sans-serif;
+
+}
+
+
+label{
+	color: #ffffff;
+}
+
+
+h1{
+	font-size: 36px;
+	padding-top: 6%;
+	color: #ffffff;
+	margin-left: 15%;
+}
+
+
+h3 {
+	color: #ffffff;
+	margin-left: 15%;
+}
+
+
+.f3{
+	background-image: url(../img/fondo3.jpg);
+
+}
+
+
+.f5{
+	background-image: url(../img/fondo5.jpg);
+	width: 100%;
+}
+
+
+.f4{
+	background-color:#cc181e;
+
+
+}
+.f6{
+	background-image: url(../img/f4.jpg);
+	width: 100%;
+
+}
+
+
+#button a{
+	font-size: 16px;
+	text-decoration: none;
+	float: right;
+	padding: 1%;
+	color: #ffffff;
+	margin-left: 2%;
+	margin-right: 1.5%;
+	margin-top: 0.3%;
+}
+
+
+#ap {
+
+	width: 33%;
+	color: #ffffff;
+	float:left;
+	font-size: 13px;
+	padding-top: 1.5%;
+	margin-left: 35%; 
+}
+
+
+#i{
+
+	float: right;
+	padding-right: 15px;
+	padding-top: 1%;
+}
+
+
+#f {
+	
+	float: right;
+	padding-right: 15px;
+	padding-bottom: : 1%;
+	padding-top: 0.8%;
+}
+
+
+#tc {
+
+	
+    color: #ffffff;
+	float:left;
+	font-size: 13px;
+	padding-top: 1.5%;
+	padding-left: 20px;
+}
+
+
+h2	{
+
+	font-size: 33px;
+    padding: 1%;
+    width: 30%;
+    margin-left: 20px;
+	background-color: rgba(244, 44, 44, 0.3);
+color: rgba(244, 44, 44, 0.3);
+-moz-box-shadow: 11px 13px 11px #c7022a;
+-webkit-box-shadow: 11px 13px 11px #c7022a;
+box-shadow: 11px 13px 11px #c7022a;
+}
+
+
+#index{
+		
+color: #ffffff;
+text-align: center;
+
+
+
+}
+
+#cuchillos{
+	width: 50%;
+
+}
+
+#cuchillo{
+	
+margin-left: 10%;
+font-size: 45px;
+margin-top: 5%;
+}
+
+.filter1{
+	-webkit-filter: grayscale(1);
+	margin-top: 12px;
+	margin-left: 13px;
+	width: 29%;
+align-items: center;
+
+}
+
+
+#redondo {
+border: 1px solid #ffc300;
+-moz-border-radius: 7px;
+-webkit-border-radius: 17px;
+} 
+
+#border{
+border:dashed 3px #ebce11;
+-moz-border-radius: 8px;
+-webkit-border-radius: 8px;
+border-radius: 8px;
+padding: 3%;
+margin-left: 5%;
+margin-top: 20%;
+} 
+
+
+a {
+	text-decoration: none;
+	color: #ffffff;
+
+} 
+
+
+
+
+
+
+
+

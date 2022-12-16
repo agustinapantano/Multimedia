@@ -1,0 +1,226 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&family=Kanit:ital@1&display=swap');
+
+
+*{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+html{
+	height: 100%;
+}
+
+body{
+	
+	font-size: 1.2rem;
+	min-height: 100%; 
+	 
+}
+
+.grid_container{
+	display: grid;
+	grid-template: 
+	"header" 100px
+	"navbar" 110px
+	"main"	500px	
+	"sidebar" 680px
+	"footer" 50px
+	;
+}
+
+.header{
+	grid-area: header;
+	background-color: #ff3838;
+}
+
+.navbar{
+	grid-area: navbar;
+	background-color: #fff200;
+	font-family: 'Fjalla One', sans-serif;
+	text-align: center;
+	font-size: 30px;
+	padding-top: 20px;
+	padding-left: 5px;
+	color: #c56cf0;	
+	position: relative;
+
+}
+
+.main{
+	grid-area: main;
+	background-color: #ffffff;
+	width: 100%;
+	
+}
+
+.sidebar{
+	grid-area: sidebar;
+	background-color: #ffffff;
+
+}
+
+.footer{
+	grid-area: footer;
+	background-color: #18dcff;
+	position: fixed;
+	width: 100%;
+    height: 50px;
+    top: 94%;
+   } 
+
+@media (min-width: 600px) {
+
+	.grid_container{
+
+		grid-template: 
+		"header 	header" 	100px 
+		"navbar 	navbar" 	75px
+		"sidebar 	main" 		700px
+		"footer 	footer" 	50px /
+		 650px		650px;
+ 	}
+
+}
+
+
+@media (min-width: 1000px) {
+
+	.grid_container{
+
+		grid-template: 
+		"header 	header" 	100px 
+		"navbar 	navbar" 	70px
+		"sidebar 	main" 		650px
+		"footer 	footer" 	50px /
+		 600px 		auto;
+ 	}
+
+}
+p {
+	font-family: 'Playfair Display', serif;
+	font-size: 18px;
+
+	padding-top: 20px;
+}
+
+
+h3{
+	font-family: 'Fjalla One', sans-serif;
+	font-size: 33pt;
+	color:#ffffff;
+	float: left;
+	position: relative;
+    margin-left: 4%;
+    margin-top: 37px;
+	
+}
+
+h2{
+	font-family: 'Playfair Display', serif;
+	font-size: 15pt;
+	color:#000000;
+	float: left;
+    margin-top: 37px;
+    padding-left: 15%;
+  
+}
+
+form{
+	font-size: 17px;
+	font-family: 'Playfair Display', serif;
+	width: 350px;
+	height: 505px;
+	background-color: #c56cf0;
+	padding-left:4%;
+	padding-top: 2.8%;
+	margin-top: 120px;
+	margin-left: 15%;
+	color: #ffffff;
+}
+
+.cubiertos{
+height: 70%;
+
+}
+
+
+.logo{
+	width: 110px;
+	padding-top: 17.5px;
+    position: relative;
+    left: 2%;
+    float: left;
+   
+}
+
+
+.largo{
+	width: 93%;
+	height: 4%;
+}
+
+.btn{
+	width: 40%;
+	height: 30px;
+	margin: 2%;
+	background-color: #ffffff;
+	font-size: 14px;
+	
+}
+
+#ap {
+
+	width: 50%;
+	color: #FFFFFF;
+	float:left;
+	font-size: 15px;
+	padding-top: 15px;
+	margin-left: 3%; 
+	font-family: 'Fjalla One', sans-serif;
+	text-decoration: none;
+	
+}
+
+#i{
+
+	float: right;
+	padding-right: 15px;
+	padding-top: 1%;
+}
+
+
+#f {
+	
+	float: right;
+	padding-right: 15px;
+	padding-bottom: : 1%;
+	padding-top: 0.8%;
+}
+
+.colores{
+	width: 1%;
+}
+
+
+.btn{	text-align: center;
+	
+
+	/*lo nuevo*/
+
+	transition: all 0.3s ease;
+}
+
+.btn:hover{
+	box-shadow: inset 0 0 0 25px #ff3838;
+}	
+
+
+
+a {text-decoration: none;
+}
+
+#lp{text-decoration: none;
+font-size: 15px;}
+
